@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: sans-serif;
+    background: #121212;
+    color: white;
+    overflow: hidden;
+}
+
+#display {
+    flex: 1;
+    padding: 20px;
+    font-size: 2rem;
+    word-wrap: break-word;
+    border-bottom: 2px solid #333;
+}
+
+#text-output {
+    height: 50px;
+    padding: 10px;
+    font-size: 1.2rem;
+    color: #00ff00;
+}
+
+#morse-btn {
+    height: 40%;
+    width: 100%;
+    background: #e91e63;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    touch-action: none; /* Verhindert Zoomen beim Tippen */
+}
+
+#morse-btn:active {
+    background: #c2185b;
+}
